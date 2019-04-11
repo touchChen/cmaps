@@ -69,17 +69,17 @@ def write_cmaps(template_file='./cmaps.template'):
 
 write_version_py()
 write_cmaps()
-setup(
-    name='cmaps',
-    author='Hao Huang',
-    version=VERSION,
-    author_email='hhuangwx@gmail.com',
-    packages=['cmaps', ],
-    package_data={'cmaps': ['colormaps/ncar_ncl/*',
-                            'colormaps/self_defined/*'], },
-    url='',
-    license='LICENSE.txt',
-    description='',
-    long_description='',
-    install_requires=['matplotlib', 'numpy'],
-)
+# setup(
+#     name='cmaps',
+#     author='Hao Huang',
+#     version=VERSION,
+#     author_email='hhuangwx@gmail.com',
+#     packages=['cmaps', ],
+#     package_data={'cmaps': ['colormaps/ncar_ncl/*',
+#                             'colormaps/self_defined/*'], },
+#     url='',
+#     license='LICENSE.txt',
+#     description='',
+#     long_description='',
+#     install_requires=['matplotlib', 'numpy'],
+# )
